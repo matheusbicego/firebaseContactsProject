@@ -9,6 +9,7 @@ firebase-debug.*.log*
 
 # Firebase cache
 .firebase/
+web/services/config.ts
 
 # Firebase config
 
@@ -46,7 +47,6 @@ build/Release
 
 # Dependency directories
 node_modules/
-web/src/services/config.ts
 
 # Optional npm cache directory
 .npm
