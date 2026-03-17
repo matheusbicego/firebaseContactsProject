@@ -46,6 +46,7 @@ build/Release
 
 # Dependency directories
 node_modules/
+web/src/services/config.ts
 
 # Optional npm cache directory
 .npm
