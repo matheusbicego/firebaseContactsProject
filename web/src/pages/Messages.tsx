@@ -53,8 +53,8 @@ export default function Messages() {
       data: MessageData;
     }[]
   >([]);
-  const { messages, setMessages, fetchMessages } = useMessages(user?.uid);
-  const { contacts, setContacts, fetchContacts } = useContacts(user?.uid);
+  const { messages, fetchMessages } = useMessages(user?.uid);
+  const { contacts } = useContacts(user?.uid);
 
   const columns = [
     {

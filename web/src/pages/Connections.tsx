@@ -28,7 +28,7 @@ export default function Connections() {
   const [newNameUpdateConnection, setNewNameUpdateConnection] = useState("");
   const [selectableRow, setSelectableRow] = useState<Connection | null>(null);
   const [loadButton, setLoadButton] = useState(false);
-  const { connections, setConnections, fetchConnections } = useConnections(
+  const { connections, fetchConnections } = useConnections(
     user?.uid,
   );
   const columns = [

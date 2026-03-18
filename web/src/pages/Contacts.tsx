@@ -56,7 +56,7 @@ export default function Contacts() {
     useState("");
   const [selectableRow, setSelectableRow] = useState<Contact | null>(null);
   const [loadButton, setLoadButton] = useState(false);
-  const { contacts, setContacts, fetchContacts } = useContacts(user?.uid);
+  const { contacts, fetchContacts } = useContacts(user?.uid);
   const { connections } = useConnections(user?.uid);
   const columns = [
     {
